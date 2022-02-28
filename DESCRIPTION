@@ -1,0 +1,15 @@
+Package: Firehose
+Title: An R Markdown-based report building tool for analysts and SPC users in the NHS #plotthedots style
+Version: 0.0.0.9000
+Authors@R: 
+    person("Tom", "Smith", , "tomsmith_uk@hotmail.com", role = c("aut", "cre"))
+Description: 
+    Pass data and some configuration in, and this package will use RMarkdown to 
+    render report outputs using SPC XmR charts, and run charts, allowing 
+    analysts to reduce time spent writing reports, and increase time spent 
+    doing analysis.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
