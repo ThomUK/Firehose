@@ -1,0 +1,23 @@
+---
+output: 
+  html_document:
+    theme: cosmo
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  results = "asis",
+  warning = TRUE
+)
+```
+
+## Report Heading
+
+---
+
+Some data to report on
+
+---
+
+Report footer
